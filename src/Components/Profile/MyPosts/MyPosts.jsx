@@ -1,27 +1,18 @@
 import React from 'react';
-import classes from './Profile.module.css'
+import classes from './MyPosts.module.css'
+import Post from './Post/Post';
 
-const Profile = () => {
-    return <div className={classes.content}>
+const MyPosts = () => {
+    return   (  <div className={classes.posts}>
+    My posts
     <div>
-      <img width="100%"src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SouthParkTheFracturedButWhole_enGB.jpg" alt="hero image"/>
-      </div>
-      <div>
-        ava + desk
-      </div>
-      <div className={classes.posts}>
-        My posts
-        <div className={classes.post}>
-          New post
-        </div>
-        <div className={classes.post}>
-          post1
-        </div>
-        <div className={classes.post}>
-          New post
-        </div>
-      </div>
+      <textarea></textarea>
+      <button>Add post</button>
     </div>
+<Post message="Hi, how are you" likeCount="20"/>
+<Post message="Hello world" likeCount="1"/>"
+
+  </div>)
 }
 
-export default Profile;
+export default MyPosts;

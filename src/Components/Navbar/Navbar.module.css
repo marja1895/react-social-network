@@ -1,8 +1,14 @@
 .nav {
-    grid-area: n;
-    background-color: yellow;
-  }
+	grid-area: n;
+	background-color: yellow;
+	padding: 20px;
+}
 
-.navitem {
-    color: #333;
+.navitem a {
+	color: #333;
+	text-decoration: none;
+}
+
+.navitem a.activeLink {
+	color: teal;
 }
