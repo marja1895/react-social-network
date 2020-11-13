@@ -7,7 +7,7 @@ const ProfileInfo = (props) => {
 			<div>
 				<img
 					width='100%'
-					src='https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SouthParkTheFracturedButWhole_enGB.jpg'
+					src='https://picua.org/images/2020/11/13/592cb497b6136ff03214648aad30f4f5.jpg'
 					alt='hero image'
 				/>
 			</div>

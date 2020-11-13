@@ -2,11 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
+import state from './Redux/State'
 import * as serviceWorker from './serviceWorker'
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
 	<React.StrictMode>
-		<App posts={posts} messages={messages} dialogs={dialogs}/>
+		<BrowserRouter>
+			<App state={state} />
+		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')
 )

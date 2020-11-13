@@ -1,14 +1,16 @@
 .nav {
 	grid-area: n;
-	background-color: yellow;
+	background-color: #4ec119;
 	padding: 20px;
+
 }
 
 .navitem a {
-	color: #333;
+	color: #fff;
 	text-decoration: none;
+	padding: 10px;
 }
 
 .navitem a.activeLink {
-	color: teal;
+	color: rgb(228, 230, 230);
 }
