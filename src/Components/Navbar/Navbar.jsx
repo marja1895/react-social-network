@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Navbar.module.css'
 import { NavLink } from 'react-router-dom'
+import Sidebar from './Sidebar/Sidebar'
 
 const Navbar = () => {
 	return (
@@ -29,6 +30,7 @@ const Navbar = () => {
 				<NavLink to='/settings' activeClassName={classes.activeLink}>
 					Settings
 				</NavLink>
+				<Sidebar />
 			</div>
 		</nav>
 	)

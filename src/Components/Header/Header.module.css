@@ -1,8 +1,10 @@
 .header {
 	grid-area: h;
 	background-color: #f85c0d;
+	border-bottom: 1px solid #d64b06;
 }
 .header img {
-	height: 60px;
-	padding-left: 50px;
+	height: 30px;
+	padding-left: 0.5em;
+	padding-top: 1em;
 }
