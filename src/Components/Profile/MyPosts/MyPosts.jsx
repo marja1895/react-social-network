@@ -1,7 +1,8 @@
 import React from 'react'
-import { addPostActionCreator, updateNewPostText, updateNewPostTextActionCreator } from '../../../Redux/State'
+import { addPostActionCreator, updateNewPostTextActionCreator } from '../../../Redux/profile-reducer'
 import classes from './MyPosts.module.css'
 import Post from './Post/Post'
+
 
 const MyPosts = (props) => {
 	let postsElements = props.posts.map((p) => {
@@ -29,6 +30,7 @@ const MyPosts = (props) => {
 						onChange={onPostChange}
 						ref={newPostElement}
 						value={props.newPostText}
+						placeholder='write your post here'
 					/>
 				</div>
 				<div>
